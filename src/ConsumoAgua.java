@@ -1,4 +1,8 @@
+import java.util.Arrays;
 import java.util.Scanner;
+
+import static Tabela1.CauculoTabela1.defineIndice;
+import static Tabela1.CauculoTabela1.retornaValores;
 
 public class ConsumoAgua {
 
@@ -7,21 +11,30 @@ public class ConsumoAgua {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite a população (habitantes): ");
-        int populacao = scanner.nextInt();
+        // int populacao = scanner.nextInt();
+        int populacao = 70000;
 
         System.out.print("Digite o consumo de água (litros por habitante/dia): ");
-        double consumoPorHabitante = scanner.nextDouble();
+        // double consumoPorHabitante = scanner.nextDouble();
+        int consumoPorHabitante = 160;
 
-        double consumoTotal = calcularConsumo(populacao, consumoPorHabitante);
+        double vazaoQ = calcularConsumo(populacao, consumoPorHabitante);
 
-        System.out.println("Consumo total diário: " + consumoTotal + " litros/s");
+        System.out.println("Consumo total diário: " + vazaoQ + " litros/s");
 
         scanner.close();
+
+        double[] itemTabela = retornaValores(defineIndice(vazaoQ));
+
+
     }
+
     public static double calcularConsumo(int populacao, double consumoPorHabitante) {
+        int segundos = 86400;
+        // int metrosParaLitros;
 
-        int segundos =  86400;
-
-        return ((populacao * consumoPorHabitante) / 1000)/86400;
+        return (populacao * consumoPorHabitante) / segundos;
     }
+
+
 }
