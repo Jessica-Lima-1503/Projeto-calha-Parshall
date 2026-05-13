@@ -2,7 +2,7 @@ package Tabela2;
 
 public class CalculoTabela2 {
 
-    public class CauculoTabela2 {
+    public class Calculo2 {
         final static double[][] tabela = {
                 {1, 22.8,},
                 {3, 38.1},

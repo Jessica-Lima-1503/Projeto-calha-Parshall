@@ -1,8 +1,9 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-import static Tabela1.CauculoTabela1.defineIndice;
-import static Tabela1.CauculoTabela1.retornaValores;
+import static Tabela1.CalculoTabela1.defineIndice;
+import static Tabela1.CalculoTabela1.retornaValores;
+
 
 public class ConsumoAgua {
 

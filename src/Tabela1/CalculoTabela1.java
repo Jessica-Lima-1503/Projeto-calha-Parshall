@@ -3,7 +3,7 @@ package Tabela1;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CauculoTabela1 {
+public class CalculoTabela1 {
     final static double[][] tabela = {
             {76, 3, 0.85, 53.8, 0.1771, 1.5447},
             {152, 6, 1.52, 110.4, 0.3812, 1.530},
