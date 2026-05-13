@@ -21,7 +21,7 @@ public class ConsumoAgua {
 
         double vazaoQ = calcularConsumo(populacao, consumoPorHabitante);
 
-        System.out.println("Consumo total diário: " + vazaoQ + " litros/s");
+        System.out.printf("Consumo total diário: %.4f litros/s%n", vazaoQ );
 
         scanner.close();
 
