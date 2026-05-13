@@ -18,8 +18,8 @@ public class CalculoTabela1 {
 
     public static int defineIndice(double vazao) {
         for (int i = 0; i < tabela.length; i++) {
-            double Vminima = tabela[i][1];
-            double Vmaxima = tabela[i][2];
+            double Vminima = tabela[i][2];
+            double Vmaxima = tabela[i][3];
 
             if (vazao >= Vminima && vazao <= Vmaxima) {
                 return i;
