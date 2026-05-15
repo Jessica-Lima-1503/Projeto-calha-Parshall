@@ -1,7 +1,7 @@
 # Equipe:
 ## Jéssica De Lima
 ## Larissa Pereira Rodrigues
-## Leonardo Nicol
+## Leonardo Nicolin
 ## Nilson Miguel De Paula Júnior 
 ## Pedro Canhe Pereira
 
