@@ -12,12 +12,12 @@ public class ConsumoAgua {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Digite a população (habitantes): ");
-        // int populacao = scanner.nextInt();
-        int populacao = 70000;
+         int populacao = scanner.nextInt();
+         populacao = 70000;
 
         System.out.print("Digite o consumo de água (litros por habitante/dia): ");
-        // double consumoPorHabitante = scanner.nextDouble();
-        int consumoPorHabitante = 160;
+         double consumoPorHabitante = scanner.nextDouble();
+         consumoPorHabitante = 160;
 
         double vazaoQ = calcularConsumo(populacao, consumoPorHabitante);
 
