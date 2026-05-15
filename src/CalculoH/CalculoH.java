@@ -2,27 +2,17 @@ package CalculoH;
 
 public class CalculoH {
 
-    public static double calcularH(double Q, double k, double N) {
+    public static double calcularH(double Q, double k, double n) {
 
+        //condicao do k
         if (k == 0) {
-            throw new IllegalArgumentException("k não pode ser zero.");
+            throw new IllegalArgumentException("K não pode ser zero.");
         }
-
-        if (N == 0) {
+        //condicao do n
+        if (n == 0) {
             throw new IllegalArgumentException("N não pode ser zero.");
         }
 
-        return Math.pow(Q / k, 1.0 / N);
-    }
-
-    public static void main(String[] args) {
-
-        double Q = 100;
-        double k = 5;
-        double N = 2;
-
-        double H = calcularH(Q, k, N);
-
-        System.out.println("Resultado de H = " + H);
+        return Math.pow(Q / k, 1.0 / n);
     }
 }
