@@ -79,20 +79,3 @@ public class Main {
         scanner.close();
     }
 }
-
-// para voce na hora de fazer o proximo passo(nao esqueca de apagar em)
-// double[] dados = CalculoTabela1.getTabela()[i];
-//
-// double larguraCalha = dados[0];
-// double area = dados[1];
-// double vazaoMinima = dados[2];
-// double vazaoMaxima = dados[3];
-// double k = dados[4];
-// double n = dados[5];
-// double alturaE = dados[6];
-//
-// double alturaH = CalculoH.calcularH(vazaoQ, k, n) * 100;
-//
-// double limite70 = alturaE * 0.70;
-//
-// boolean aprovado = alturaH <= limite70;
