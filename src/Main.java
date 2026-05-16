@@ -60,11 +60,11 @@ public class Main {
             System.out.printf("H calculado: %.2f cm%n", hEmCm);
 
             if (hEmCm < (valorE * 0.70)) {
-                System.out.printf("H (%.2f cm) < 70%% de E (%.2f cm) → APROVADA%n",
+                System.out.printf("H (%.2f cm) < 70%% de E (%.2f cm) --> APROVADA%n",
                         hEmCm, valorE * 0.70);
                 maiorQue70 = false;
             } else {
-                System.out.printf("H (%.2f cm) >= 70%% de E (%.2f cm) → REPROVADA%n", hEmCm, valorE * 0.70);
+                System.out.printf("H (%.2f cm) >= 70%% de E (%.2f cm) --> REPROVADA%n", hEmCm, valorE * 0.70);
                 System.out.println("\nRecalculando com nova vazão.");
                 if (indice < CalculoTabela1.tamanhoTabela() - 1) {
                     indice++;
